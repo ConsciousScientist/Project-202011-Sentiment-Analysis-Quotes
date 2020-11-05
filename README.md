@@ -5,7 +5,7 @@ This is a part of the project that I did to close my master in Big Data and Data
 
 Please consider that I had zero experience when I developed it. Therefore, you will most probably find mistakes and bad practises.
 
-For visualization support, please refer to the wiki section after reading this Readme file.
+IMPORTANT: For visualization support, please refer to the wiki section after reading this Readme file.
 
 ## Description
 There is an initial database with approximately 500k labeled quotes and its authors. The labels depend on the quote content and they express the emotions of it: love, fear, hope, etc. Some quotes are multilabeled.
