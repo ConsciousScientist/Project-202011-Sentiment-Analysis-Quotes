@@ -32,7 +32,7 @@ Not needed
 No instalation possible
 
 ## Usage:
-Perfectly explained within the code
+Perfectly explained inside the code
 
 ## Contributing: 
 It would be appreciate to see how you would approach the projetc for bette results. Please see the conclusions I gathered in the next section. The limitation of the data makes not possible to drastically improve the results.
