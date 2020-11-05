@@ -5,6 +5,8 @@ This is a part of the project that I did to close my master in Big Data and Data
 
 Please consider that I had zero experience when I developed it. Therefore, you will most probably find mistakes and bad practises.
 
+For visualization support, please refer to the wiki section after reading this Readme file.
+
 ## Description
 There is an initial database with approximately 500k labeled quotes and its authors. The labels depend on the quote content and they express the emotions of it: love, fear, hope, etc. Some quotes are multilabeled.
 
@@ -35,7 +37,7 @@ No instalation possible
 Perfectly explained inside the code
 
 ## Contributing: 
-It would be appreciate to see how you would approach the projetc for bette results. Please see the conclusions I gathered in the next section. The limitation of the data makes not possible to drastically improve the results.
+It would be appreciate to see how you would approach the project for better results. Please see the conclusions I gathered in the next section. The limitation of the data makes not possible to drastically improve the results.
 
 ## Conclusions: 
 - With neural  network 41,1% reached. At some point, NN simplicity did not reduce overfitting. No more data available. Possibility to relabel. For instance bringing "death" and "fear" together under "death".
