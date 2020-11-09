@@ -1,1 +1,1 @@
-Here you find all dataset used in the project depending for each phase.
+Here you find all dataset used in the project for each phase.
