@@ -1,7 +1,7 @@
 # Sentiment-Analysis-Quote-Output
 
 ## Preface
-This is a part of the project that I did to close my master in Big Data and Data Science.
+This is a part of the project that I did to close my master in Big Data and Data Science. It represents an scenario where a supposed client is hiring me for a data science job.
 
 Please consider that I had zero experience when I developed it. Therefore, you might find mistakes and bad practises.
 
@@ -9,7 +9,7 @@ IMPORTANT: For visualization support, please refer to the wiki section after rea
 
 
 ## Description
-The idea is to create a model capable of clasify user sentiments. 
+The client wants to create a model capable of clasify user sentiments. 
 
 The user introduces his state of mind (written inputs) at a certain moment in time. Specially when the user feels bad for some reason. Examples:
 
@@ -29,6 +29,16 @@ Different algorithms have been used:
 
 This selection has been based on research and best practises found online. The chosen final model has been the Neural Network (LTSM).
 
+The client also wants to increase the original dataset. He wants to extract tweets from twitter accounts which are posting daily quotes. For that, he asks to create a database in MongoDB where the original dataset with the 500k and the daily extracted tweets are kept.
+
+The whole project has been carried out following CRISP-DM methodology (to solve for data mining). Therefore the there is a notebook for each phase:
+- Phase 0: Data Understanding
+- Phase 1: Business Understanding (no notebook)
+- Phase 2: Data Understanding
+- Phase 3: Data Preparation (tweet clean and extraction)
+- Phase 4: Modeling (Supervised Learning)
+- Phase 5: Evaluation
+- Phase 6: Deployment
 
 ## Table of Contents:
 Not needed
