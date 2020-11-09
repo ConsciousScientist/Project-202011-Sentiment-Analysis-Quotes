@@ -7,6 +7,7 @@ Please consider that I had zero experience when I developed it. Therefore, you m
 
 IMPORTANT: For visualization support, please refer to the wiki section after reading this Readme file.
 
+
 ## Description
 The idea is to create a model capable of clasify user sentiments. 
 
@@ -18,7 +19,6 @@ The user introduces his state of mind (written inputs) at a certain moment in ti
 
 The model is going to properly classif the user's inputs.
 
-
 To train the model,t here is an initial dataset with approximately 500k labeled quotes and its authors. The labels depend on the quote content and they express the emotions of it: love, fear, hope, etc. Some quotes are multilabeled.
 
 Different algorithms have been used:
@@ -29,23 +29,29 @@ Different algorithms have been used:
 
 This selection has been based on research and best practises found online. The chosen final model has been the Neural Network (LTSM).
 
+
 ## Table of Contents:
 Not needed
+
 
 ## Installation:
 No instalation possible
 
+
 ## Usage:
 Perfectly explained inside the code
 
+
 ## Contributing: 
 It would be appreciate to see how you would approach the project for better results. Please see the conclusions I gathered in the next section. The limitation of the data makes not possible to drastically improve the results.
+
 
 ## Conclusions: 
 - With neural  network 41,1% reached. At some point, NN simplicity did not reduce overfitting. No more data available. Possibility to relabel. For instance bringing "death" and "fear" together under "death".
 - There was scarcity in documentation to classify a multi-label problem.
 - RNN bottleneck is that it is sequential processing of text → BERT could deliver better results (Minaee et al. 2020)
 - I did not properly analyze the dataset at the beginning of the problem and that pushed me to delete many raws. If I had done that, I could have relabed some of the quotes and therefore get a better outcome.
+
 
 ## License:
 No licenses.
