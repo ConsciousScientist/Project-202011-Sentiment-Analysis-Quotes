@@ -40,6 +40,8 @@ The whole project has been carried out following CRISP-DM methodology (to solve 
 - Phase 5: Evaluation
 - Phase 6: Deployment
 
+Any comment is always welcome!
+
 ## Table of Contents:
 Not needed
 
