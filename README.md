@@ -27,7 +27,7 @@ Different algorithms have been used:
 - Logistic Regression
 - Lonf-short Term Memory (LSTM)
 
-This selection has been based on research and best practises found online. The chosen final model has been the Neural Network (LTSM).
+This selection has been based on research and best practises found online. The chosen final model has been the Neural Network (LTSM). Just this one is presented in the code.
 
 The client also wants to increase the original dataset. He wants to extract tweets from twitter accounts which are posting daily quotes. For that, he asks to create a database in MongoDB where the original dataset with the 500k and the daily extracted tweets are kept.
 
