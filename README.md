@@ -36,8 +36,7 @@ The whole project has been carried out following CRISP-DM methodology (to solve 
 - Phase 1: Business Understanding (no notebook)
 - Phase 2: Data Understanding
 - Phase 3: Data Preparation (tweet clean and extraction)
-- Phase 4: Modeling (Supervised Learning)
-- Phase 5: Evaluation
+- Phase 4 & 5: Modeling (Supervised Learning) & Evaluation
 - Phase 6: Deployment
 
 Any comment is always welcome!
